@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div
+    class="category_card"
+    *ngFor="let category of categories"
+    (click)="goToCategory(category.id)"
+  >
+    <img src="{{ category.icon }}" alt="{{ category.name }}" />
+    <span>{{ category.name }}</span>
+  </div>
+</div>
+<app-footer></app-footer>

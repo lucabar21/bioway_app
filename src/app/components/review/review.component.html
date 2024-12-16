@@ -1,0 +1,25 @@
+<div class="reviews">
+  <div class="rating">
+    <!-- Stelle illuminate -->
+    <span>{{ averageRating.toFixed(1) }}/5</span>
+    <ng-container *ngFor="let star of stars; let i = index">
+      <ion-icon
+        name="star"
+        class="star"
+        [class.filled]="i < averageRating"
+        [class.half-filled]="isHalfStar(i)"
+      ></ion-icon>
+    </ng-container>
+  </div>
+
+  <!-- Progress bar per ogni valore -->
+  <div class="progress-bars">
+    <div class="progress-item" *ngFor="let value of reviews; let i = index">
+      <span>{{ i + 1 }}</span>
+      <div class="progress">
+        <div class="progress-bar" [style.width.%]="getPercentage(value)"></div>
+      </div>
+      <span>{{ value }} voti</span>
+    </div>
+  </div>
+</div>

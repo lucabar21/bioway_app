@@ -1,0 +1,42 @@
+<nav class="navbar">
+  <div class="nav_top">
+    <div class="nav_logo" routerLink="/">
+      <img src="logo.png" alt="logo" />
+    </div>
+    <div class="nav_right_elements">
+      <ion-searchbar placeholder="Cerca"></ion-searchbar>
+      <div class="icon_cart" (click)="toggleCart()">
+        <div class="badge" *ngIf="items.length > 0">{{ items.length }}</div>
+        <ion-icon color="secondary" name="cart"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <div class="nav_bottom">
+    <span
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</span
+    >
+    <span routerLink="/categories" routerLinkActive="active">Categorie</span>
+    <span routerLink="/recipes" routerLinkActive="active">Ricette</span>
+    <span routerLink="/contact" routerLinkActive="active">Contatti</span>
+  </div>
+  <div class="nav_bottom_mobile">
+    <ion-icon name="menu-outline" (click)="toggleMobileMenu()"></ion-icon>
+  </div>
+  <div class="nav_bottom_mobile_drop" *ngIf="menuOpen">
+    <span
+      routerLink="/"
+      routerLinkActive="active_mobile"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</span
+    >
+    <span routerLink="/categories" routerLinkActive="active_mobile"
+      >Categorie</span
+    >
+    <span routerLink="/recipes" routerLinkActive="active_mobile">Ricette</span>
+    <span routerLink="/contact" routerLinkActive="active_mobile">Contatti</span>
+  </div>
+  <app-cart [isOpen]="cartOpen" (close)="toggleCart()"></app-cart>
+</nav>

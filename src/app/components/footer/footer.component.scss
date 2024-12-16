@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--ion-color-primary);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+footer > span {
+  font-weight: 300;
+}

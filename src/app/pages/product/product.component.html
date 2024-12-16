@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <ion-icon name="arrow-back" (click)="goBack()"></ion-icon>
+  <div class="product_detail">
+    <div class="prod_img">
+      <img src="{{ product.image }}" alt="{{ product.name }}" />
+    </div>
+    <div class="prod_info">
+      <span>{{ product.name }}</span>
+      <span>Caretteristiche del prodotto:</span>
+      <ul>
+        <li><strong>Origine:</strong> {{ product.description.origine }}</li>
+        <li><strong>Sapore:</strong> {{ product.description.sapore }}</li>
+        <li><strong>Benefici:</strong> {{ product.description.benefici }}</li>
+        <li><strong>Formato:</strong> {{ product.description.formato }}</li>
+        <li>
+          <strong>Conservazione:</strong>
+          {{ product.description.conservazione }}
+        </li>
+      </ul>
+      <app-button (click)="addToCart(product)"></app-button>
+    </div>
+  </div>
+
+  <div class="review_container">
+    <span>Valutazione degli utenti</span>
+    <app-review [reviews]="product.rate"></app-review>
+  </div>
+  <div class="related_products">
+    <span>Prodotti correlati</span>
+    <app-carousel></app-carousel>
+  </div>
+</div>
+<app-footer></app-footer>

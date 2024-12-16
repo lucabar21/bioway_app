@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <app-recipe-card
+    [recipe]="recipe"
+    *ngFor="let recipe of recipes"
+  ></app-recipe-card>
+</div>
+<app-footer></app-footer>

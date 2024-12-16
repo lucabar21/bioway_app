@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <ion-icon name="arrow-back" (click)="goBack()"></ion-icon>
+
+  <span>{{ recipe.name }}</span>
+  <div class="preview_img">
+    <img src="{{ recipe.image }}" alt="{{ recipe.name }}" />
+    <ion-icon name="play-circle"></ion-icon>
+  </div>
+
+  <p class="description">{{ recipe.description }}</p>
+
+  <div class="ingredients">
+    <span>INGREDIENTI</span>
+    <div>
+      <span *ngFor="let ingredient of getIngredients()">
+        {{ capitalizeFirstLetter(ingredient.key) }}:<strong>{{
+          ingredient.value
+        }}</strong>
+      </span>
+    </div>
+  </div>
+  <div class="info">
+    <span>INFORMAZIONI</span>
+    <div>
+      <span
+        ><ion-icon name="speedometer"></ion-icon><strong>Difficoltà: </strong
+        >{{ recipe.difficulty }}</span
+      >
+      <span
+        ><ion-icon name="time"></ion-icon><strong>Preparazione: </strong
+        >{{ recipe.preparation }}</span
+      >
+      <span
+        ><ion-icon name="timer"></ion-icon><strong>Cottura: </strong
+        >{{ recipe.cooking }}</span
+      >
+      <span
+        ><ion-icon name="people"></ion-icon><strong>Dosi: </strong
+        >{{ recipe.doses }}</span
+      >
+      <span
+        ><ion-icon name="cash"></ion-icon><strong>Costo: </strong
+        >{{ recipe.cost }}</span
+      >
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,1106 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Frutta",
+      "icon": "https://img.icons8.com/color/48/watermelon.png"
+    },
+    {
+      "id": "2",
+      "name": "Verdura",
+      "icon": "https://img.icons8.com/color/48/gailan.png"
+    },
+    {
+      "id": "3",
+      "name": "Latticini",
+      "icon": "https://img.icons8.com/color/48/cheese.png"
+    },
+    {
+      "id": "4",
+      "name": "Cereali",
+      "icon": "https://img.icons8.com/fluency/48/wheat.png"
+    },
+    {
+      "id": "5",
+      "name": "Condimenti",
+      "icon": "https://img.icons8.com/color/48/olive-oil-bottle.png"
+    },
+    {
+      "id": "6",
+      "name": "Bevande",
+      "icon": "https://img.icons8.com/color/48/orange-juice.png"
+    },
+    {
+      "id": "7",
+      "name": "Legumi",
+      "icon": "https://img.icons8.com/external-goofy-flat-kerismaker/96/external-Beans-vegetable-goofy-flat-kerismaker.png"
+    },
+    {
+      "id": "8",
+      "name": "Dolci",
+      "icon": "https://img.icons8.com/color/48/cookies.png"
+    },
+    {
+      "id": "9",
+      "name": "Frutta secca",
+      "icon": "https://img.icons8.com/fluency/48/almond.png"
+    },
+    {
+      "id": "10",
+      "name": "Spezie",
+      "icon": "https://img.icons8.com/office/40/pepper-shaker.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Fragole",
+      "image": "https://images.unsplash.com/photo-1543528176-61b239494933?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 8.49,
+      "description": {
+        "origine": "100% italiana, da agricoltura sostenibile",
+        "sapore": "Dolce e succoso, con una leggera nota di acidità",
+        "benefici": "Ricche di vitamina C, antiossidanti e fibre",
+        "formato": "Disponibile in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto per mantenere la freschezza"
+      },
+      "rate": [
+        10,
+        23,
+        0,
+        0,
+        1
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "2",
+      "name": "Banane",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 2.99,
+      "description": {
+        "origine": "Prodotte in Sud America, da agricoltura biologica",
+        "sapore": "Dolce e morbido, con un leggero sapore tropicale",
+        "benefici": "Fonte di potassio, vitamine e fibre",
+        "formato": "Disponibili in mazzi da 6-7 pezzi",
+        "conservazione": "Conservare a temperatura ambiente"
+      },
+      "rate": [
+        25,
+        16,
+        15,
+        0,
+        0
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "3",
+      "name": "Mele Golden",
+      "image": "https://plus.unsplash.com/premium_photo-1667049292983-d2524dd0ef08?q=80&w=1149&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.49,
+      "description": {
+        "origine": "Prodotte in Italia, da coltivazione biologica",
+        "sapore": "Dolce e croccante, con un leggero retrogusto acidulo",
+        "benefici": "Ricche di vitamine, fibre e antiossidanti",
+        "formato": "Disponibili in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        1,
+        25,
+        6,
+        0,
+        0
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "4",
+      "name": "Carote",
+      "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?q=80&w=999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 1.89,
+      "description": {
+        "origine": "100% italiane, coltivate senza pesticidi",
+        "sapore": "Croccante e dolce, con un sapore naturale",
+        "benefici": "Ricche di vitamina A, potassio e fibre",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in frigorifero per mantenere la freschezza"
+      },
+      "rate": [
+        3,
+        11,
+        15,
+        0,
+        0
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "5",
+      "name": "Zucchine",
+      "image": "https://images.unsplash.com/photo-1692956475726-d4a90d0dfbdf?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 2.99,
+      "description": {
+        "origine": "Prodotte in Italia, da coltivazione biologica",
+        "sapore": "Delicate e dolci, con un retrogusto leggermente erboso",
+        "benefici": "Ricche di acqua, vitamine e minerali",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in frigorifero per mantenere la freschezza"
+      },
+      "rate": [
+        12,
+        30,
+        9,
+        0,
+        0
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "6",
+      "name": "Pomodori Ciliegino",
+      "image": "https://images.unsplash.com/photo-1570543375343-63fe3d67761b?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 4.99,
+      "description": {
+        "origine": "100% italiani, coltivati senza pesticidi",
+        "sapore": "Dolci e succosi, con una punta di acidità",
+        "benefici": "Ricchi di licopene, vitamine A e C",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        17,
+        17,
+        9,
+        0,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "7",
+      "name": "Spinaci Freschi",
+      "image": "https://plus.unsplash.com/premium_photo-1701699257548-8261a687236f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 2.49,
+      "description": {
+        "origine": "Coltivati in Italia, da agricoltura biologica",
+        "sapore": "Delicato e leggermente amarognolo",
+        "benefici": "Ricchi di ferro, vitamine e fibre",
+        "formato": "Disponibili in confezioni da 250g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        16,
+        18,
+        3,
+        0,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "8",
+      "name": "Latte Intero",
+      "image": "https://images.unsplash.com/photo-1523473827533-2a64d0d36748?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1L",
+      "price": 1.49,
+      "description": {
+        "origine": "Latte fresco italiano, prodotto con metodi tradizionali",
+        "sapore": "Ricco e cremoso, dal sapore naturale",
+        "benefici": "Fonte di calcio, vitamine D e B12",
+        "formato": "Disponibile in bottiglie da 1L",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        9,
+        9,
+        8,
+        1,
+        0
+      ],
+      "category_id": 3
+    },
+    {
+      "id": "9",
+      "name": "Yogurt Bianco",
+      "image": "https://images.unsplash.com/photo-1572041002237-762bdc102cf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 2.99,
+      "description": {
+        "origine": "Prodotto con latte italiano, fermentato naturalmente",
+        "sapore": "Morbido e delicato, con un retrogusto cremoso",
+        "benefici": "Ricco di probiotici, calcio e proteine",
+        "formato": "Disponibile in vasetti da 500g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        2,
+        24,
+        22,
+        0,
+        1
+      ],
+      "category_id": 3
+    },
+    {
+      "id": "10",
+      "name": "Formaggio Grana",
+      "image": "https://images.unsplash.com/photo-1729671971046-428d29acfa1f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "250g",
+      "price": 5.99,
+      "description": {
+        "origine": "Prodotto in Italia, con latte fresco di alta qualità",
+        "sapore": "Sapido e ricco, con una consistenza granulosa",
+        "benefici": "Ricco di proteine, calcio e vitamine",
+        "formato": "Disponibile in blocchi da 500g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        17,
+        18,
+        9,
+        0,
+        1
+      ],
+      "category_id": 3
+    },
+    {
+      "id": "11",
+      "name": "Farina di Farro",
+      "image": "https://plus.unsplash.com/premium_photo-1671377375657-5286f40ec0c7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.99,
+      "description": {
+        "origine": "Prodotta in Italia da farro biologico",
+        "sapore": "Leggermente dolce, con una consistenza rustica",
+        "benefici": "Fonte di fibre, proteine e minerali",
+        "formato": "Disponibile in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        0,
+        19,
+        25,
+        0,
+        0
+      ],
+      "category_id": 4
+    },
+    {
+      "id": "12",
+      "name": "Riso Integrale",
+      "image": "https://plus.unsplash.com/premium_photo-1705404738477-24fc4e77f836?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 4.49,
+      "description": {
+        "origine": "Coltivato in Italia, da agricoltura biologica",
+        "sapore": "Ricco e corposo, con una leggera croccantezza",
+        "benefici": "Ricco di fibre, vitamine e minerali",
+        "formato": "Disponibile in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        27,
+        8,
+        12,
+        1,
+        1
+      ],
+      "category_id": 4
+    },
+    {
+      "id": "12",
+      "name": "Pasta di Grano Duro",
+      "image": "https://plus.unsplash.com/premium_photo-1705337959675-b36665191fb8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 2.49,
+      "description": {
+        "origine": "Prodotta in Italia con semola di grano duro di alta qualità",
+        "sapore": "Ricca e corposa, con una consistenza perfetta per sughi",
+        "benefici": "Fonte di carboidrati e fibre",
+        "formato": "Disponibile in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        25,
+        19,
+        29,
+        0,
+        1
+      ],
+      "category_id": 4
+    },
+    {
+      "id": "13",
+      "name": "Olio Extra Vergine di Oliva",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=1018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1L",
+      "price": 9.99,
+      "description": {
+        "origine": "Prodotto in Italia con olive selezionate",
+        "sapore": "Fruttato e aromatico, con una leggera nota piccante",
+        "benefici": "Ricco di antiossidanti e grassi sani",
+        "formato": "Disponibile in bottiglie da 500ml",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        11,
+        1,
+        15,
+        0,
+        0
+      ],
+      "category_id": 5
+    },
+    {
+      "id": "14",
+      "name": "Aceto di Mele",
+      "image": "https://images.unsplash.com/photo-1628268909461-ec1eec52a74e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500ml",
+      "price": 3.49,
+      "description": {
+        "origine": "Proveniente da mele italiane, fermentato naturalmente",
+        "sapore": "Acido e rinfrescante, con un retrogusto delicato",
+        "benefici": "Aiuta la digestione e ha proprietà disintossicanti",
+        "formato": "Disponibile in bottiglie da 500ml",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        26,
+        10,
+        22,
+        1,
+        1
+      ],
+      "category_id": 5
+    },
+    {
+      "id": "15",
+      "name": "Miele Millefiori",
+      "image": "https://images.unsplash.com/photo-1471943311424-646960669fbc?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 6.99,
+      "description": {
+        "origine": "Proveniente dalle montagne italiane, raccolto da fiori di diverse piante",
+        "sapore": "Dolce e aromatico, con note floreali",
+        "benefici": "Ricco di antiossidanti, vitamine e minerali",
+        "formato": "Disponibile in vasetti da 250g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        6,
+        29,
+        28,
+        1,
+        0
+      ],
+      "category_id": 8
+    },
+    {
+      "id": "16",
+      "name": "Latte di Mandorla",
+      "image": "https://images.unsplash.com/photo-1601436423474-51738541c1b1?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1L",
+      "price": 2.99,
+      "description": {
+        "origine": "Proveniente da mandorle italiane, lavorato senza zuccheri aggiunti",
+        "sapore": "Morbido e dolce, con un leggero retrogusto di mandorla",
+        "benefici": "Fonte di vitamine, minerali e grassi sani",
+        "formato": "Disponibile in bottiglie da 1L",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        2,
+        22,
+        25,
+        0,
+        0
+      ],
+      "category_id": 6
+    },
+    {
+      "id": "17",
+      "name": "Succo di Arancia",
+      "image": "https://plus.unsplash.com/premium_photo-1674595248950-7abfa035b118?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1L",
+      "price": 2.49,
+      "description": {
+        "origine": "100% arance italiane, spremute a freddo",
+        "sapore": "Fresco e dolce, con un retrogusto leggermente aspro",
+        "benefici": "Ricco di vitamina C e antiossidanti",
+        "formato": "Disponibile in bottiglie da 1L",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        13,
+        14,
+        19,
+        0,
+        0
+      ],
+      "category_id": 6
+    },
+    {
+      "id": "18",
+      "name": "Ceci Secchi",
+      "image": "https://images.unsplash.com/photo-1641913712124-a58d267b6997?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 3.29,
+      "description": {
+        "origine": "Coltivati in Italia, da agricoltura biologica",
+        "sapore": "Leggermente terroso, con una consistenza croccante",
+        "benefici": "Fonte di proteine, fibre e minerali",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        23,
+        7,
+        18,
+        0,
+        1
+      ],
+      "category_id": 7
+    },
+    {
+      "id": "19",
+      "name": "Lenticchie Rosse",
+      "image": "https://images.unsplash.com/photo-1614373532201-c40b993f0013?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 3.49,
+      "description": {
+        "origine": "Prodotte in Italia, da agricoltura biologica",
+        "sapore": "Morbide e delicate, con un sapore leggermente dolce",
+        "benefici": "Ricche di proteine vegetali, fibre e ferro",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        12,
+        16,
+        29,
+        1,
+        0
+      ],
+      "category_id": 7
+    },
+    {
+      "id": "20",
+      "name": "Cioccolato Fondente",
+      "image": "https://plus.unsplash.com/premium_photo-1723867458687-6ac1028bc161?q=80&w=1140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "100g",
+      "price": 2.49,
+      "description": {
+        "origine": "Proveniente da cacao di alta qualità, coltivato in Sud America",
+        "sapore": "Intenso e amaro, con note di frutta secca",
+        "benefici": "Ricco di antiossidanti, miglioramento dell'umore",
+        "formato": "Disponibile in barre da 100g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        28,
+        22,
+        11,
+        1,
+        0
+      ],
+      "category_id": 8
+    },
+    {
+      "id": "21",
+      "name": "Biscotti Integrali",
+      "image": "https://plus.unsplash.com/premium_photo-1725384940601-af597d124a45?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "250g",
+      "price": 3.49,
+      "description": {
+        "origine": "Prodotti in Italia con farine integrali e ingredienti naturali",
+        "sapore": "Croccanti e rustici, con un leggero sapore di nocciola",
+        "benefici": "Fonte di fibre e carboidrati complessi",
+        "formato": "Disponibili in confezioni da 200g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        2,
+        30,
+        15,
+        0,
+        1
+      ],
+      "category_id": 8
+    },
+    {
+      "id": "22",
+      "name": "Mandorle",
+      "image": "https://plus.unsplash.com/premium_photo-1675237625910-e5d354c03987?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "200g",
+      "price": 4.99,
+      "description": {
+        "origine": "Coltivate in Italia, da agricoltura biologica",
+        "sapore": "Croccanti e dolci, con un retrogusto delicato",
+        "benefici": "Ricche di grassi sani, vitamine e minerali",
+        "formato": "Disponibili in confezioni da 200g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        21,
+        24,
+        26,
+        1,
+        1
+      ],
+      "category_id": 9
+    },
+    {
+      "id": "23",
+      "name": "Noci",
+      "image": "https://images.unsplash.com/photo-1541439808416-b89fb9a9e238?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "250g",
+      "price": 5.99,
+      "description": {
+        "origine": "Prodotte in Italia, coltivate senza pesticidi",
+        "sapore": "Croccanti e ricche di gusto, con un leggero sapore di legno",
+        "benefici": "Fonte di acidi grassi omega-3, antiossidanti e vitamine",
+        "formato": "Disponibili in confezioni da 200g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        25,
+        14,
+        19,
+        0,
+        0
+      ],
+      "category_id": 9
+    },
+    {
+      "id": "24",
+      "name": "Cavolo Riccio",
+      "image": "https://plus.unsplash.com/premium_photo-1702286619432-740a9d5e3ff0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 3.29,
+      "description": {
+        "origine": "Coltivato in Italia, da agricoltura biologica",
+        "sapore": "Amaro e croccante, con un retrogusto erboso",
+        "benefici": "Ricco di vitamine, minerali e antiossidanti",
+        "formato": "Disponibile in confezioni da 300g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        9,
+        25,
+        0,
+        0,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "25",
+      "name": "Funghi Champignon",
+      "image": "https://plus.unsplash.com/premium_photo-1658506625039-a58a6eb4a0b9?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "300g",
+      "price": 3.79,
+      "description": {
+        "origine": "Coltivati in Italia, senza l'uso di pesticidi",
+        "sapore": "Morbidi e delicati, con un sapore terroso",
+        "benefici": "Fonte di vitamine B, fibre e minerali",
+        "formato": "Disponibili in confezioni da 200g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        20,
+        14,
+        19,
+        0,
+        0
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "26",
+      "name": "Tè Verde",
+      "image": "https://images.unsplash.com/photo-1668733521099-c120aa4ebbdc?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "20 bustine",
+      "price": 3.49,
+      "description": {
+        "origine": "Proveniente dalle piantagioni del Giappone e della Cina",
+        "sapore": "Leggero e fresco, con un retrogusto erboso",
+        "benefici": "Ricco di antiossidanti, aiuta a stimolare il metabolismo",
+        "formato": "Disponibile in confezioni da 20 bustine",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        2,
+        8,
+        5,
+        0,
+        1
+      ],
+      "category_id": 6
+    },
+    {
+      "id": "27",
+      "name": "Zenzero Fresco",
+      "image": "https://images.unsplash.com/photo-1634612828694-8988aa4254df?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "250g",
+      "price": 2.99,
+      "description": {
+        "origine": "Coltivato in Asia, lavorato senza trattamenti chimici",
+        "sapore": "Piccante e aromatico, con un retrogusto rinfrescante",
+        "benefici": "Aiuta la digestione, ha proprietà antinfiammatorie",
+        "formato": "Disponibile in radici da 200g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        13,
+        8,
+        20,
+        1,
+        0
+      ],
+      "category_id": 10
+    },
+    {
+      "id": "28",
+      "name": "Curcuma in Polvere",
+      "image": "https://plus.unsplash.com/premium_photo-1726072356922-922bbbc59cf0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "100g",
+      "price": 3.49,
+      "description": {
+        "origine": "Prodotta in India, lavorata e macinata con metodi naturali",
+        "sapore": "Piccante e terroso, con una leggera amarezza",
+        "benefici": "Ha proprietà antinfiammatorie e antiossidanti",
+        "formato": "Disponibile in confezioni da 100g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        15,
+        11,
+        8,
+        1,
+        1
+      ],
+      "category_id": 10
+    },
+    {
+      "id": "29",
+      "name": "Pere Abate",
+      "image": "https://images.unsplash.com/photo-1543158181-7ecb8d8f3f81?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.49,
+      "description": {
+        "origine": "Coltivate in Italia, da agricoltura sostenibile",
+        "sapore": "Dolce e succosa, con una consistenza morbida",
+        "benefici": "Fonte di fibre, vitamine e minerali",
+        "formato": "Disponibili in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        0,
+        26,
+        29,
+        1,
+        0
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "30",
+      "name": "Arance Tarocco",
+      "image": "https://images.unsplash.com/photo-1588444872849-1c9a5ade50ff?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 2.99,
+      "description": {
+        "origine": "100% italiane, provenienti dalla Sicilia",
+        "sapore": "Dolce e succoso, con una nota di acidità",
+        "benefici": "Ricche di vitamina C e antiossidanti",
+        "formato": "Disponibili in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        0,
+        8,
+        26,
+        0,
+        1
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "31",
+      "name": "Patate Novelle",
+      "image": "https://images.unsplash.com/photo-1508313880080-c4bef0730395?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 1.99,
+      "description": {
+        "origine": "Coltivate in Italia, da agricoltura biologica",
+        "sapore": "Morbide e delicate, con una consistenza farinosa",
+        "benefici": "Fonte di carboidrati e vitamine",
+        "formato": "Disponibili in confezioni da 1Kg",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        0,
+        22,
+        11,
+        0,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "32",
+      "name": "Peperoni Rossi",
+      "image": "https://images.unsplash.com/photo-1710780445769-165e39575104?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.99,
+      "description": {
+        "origine": "Coltivati in Italia, da agricoltura biologica",
+        "sapore": "Dolce e leggermente piccante, con una consistenza croccante",
+        "benefici": "Ricchi di vitamina C, antiossidanti e fibre",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        30,
+        19,
+        25,
+        0,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "33",
+      "name": "Cipolle Rosse",
+      "image": "https://images.unsplash.com/photo-1668295037469-8b0e8d11cd2a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 2.49,
+      "description": {
+        "origine": "Coltivate in Italia, senza l'uso di pesticidi",
+        "sapore": "Dolce e leggermente piccante",
+        "benefici": "Ricche di vitamine, minerali e antiossidanti",
+        "formato": "Disponibili in confezioni da 500g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        4,
+        10,
+        20,
+        1,
+        1
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "34",
+      "name": "Aglio",
+      "image": "https://plus.unsplash.com/premium_photo-1675731118551-79b3da05a5d4?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "3 teste",
+      "price": 1.99,
+      "description": {
+        "origine": "Coltivato in Italia, senza l'uso di pesticidi",
+        "sapore": "Intenso e pungente, con una nota di piccantezza",
+        "benefici": "Ha proprietà antibatteriche, antivirali e antiossidanti",
+        "formato": "Disponibile in teste da 200g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        22,
+        13,
+        15,
+        1,
+        1
+      ],
+      "category_id": 10
+    },
+    {
+      "id": "35",
+      "name": "Pesto alla Genovese",
+      "image": "https://plus.unsplash.com/premium_photo-1702323867828-61c68cbe970e?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "190g",
+      "price": 4.99,
+      "description": {
+        "origine": "Prodotto in Italia, con ingredienti freschi e naturali",
+        "sapore": "Ricco e aromatico, con un intenso sapore di basilico e pinoli",
+        "benefici": "Fonte di grassi sani e vitamine",
+        "formato": "Disponibile in vasetti da 180g",
+        "conservazione": "Conservare in frigorifero dopo l'apertura"
+      },
+      "rate": [
+        27,
+        3,
+        13,
+        1,
+        0
+      ],
+      "category_id": 6
+    },
+    {
+      "id": "36",
+      "name": "Burro Bio",
+      "image": "https://plus.unsplash.com/premium_photo-1700440539073-c769891a9e3f?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "250g",
+      "price": 3.49,
+      "description": {
+        "origine": "Prodotto in Italia con latte da agricoltura biologica",
+        "sapore": "Ricco e cremoso, con un sapore delicato e naturale",
+        "benefici": "Ricco di grassi sani e vitamine A e D",
+        "formato": "Disponibile in confezioni da 250g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        22,
+        3,
+        15,
+        0,
+        0
+      ],
+      "category_id": 3
+    },
+    {
+      "id": "37",
+      "name": "Mozzarella di Bufala",
+      "image": "https://images.unsplash.com/photo-1633253037246-12bb11ff545a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "125g",
+      "price": 2.99,
+      "description": {
+        "origine": "Prodotta in Italia, con latte di bufala campana",
+        "sapore": "Delicata e cremosa, con un sapore ricco e leggermente salato",
+        "benefici": "Ricca di calcio, proteine e vitamine",
+        "formato": "Disponibile in confezioni da 250g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        1,
+        2,
+        12,
+        0,
+        0
+      ],
+      "category_id": 3
+    },
+    {
+      "id": "38",
+      "name": "Bietole",
+      "image": "https://plus.unsplash.com/premium_photo-1675363916818-bb147b501447?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.49,
+      "description": {
+        "origine": "Coltivate in Italia, da agricoltura biologica",
+        "sapore": "Dolce e leggermente terroso, con un gusto delicato",
+        "benefici": "Ricche di vitamine A, C e K, e di minerali",
+        "formato": "Disponibili in confezioni da 300g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        30,
+        3,
+        21,
+        1,
+        0
+      ],
+      "category_id": 2
+    },
+    {
+      "id": "39",
+      "name": "Mirtilli",
+      "image": "https://plus.unsplash.com/premium_photo-1674347951519-ba11f53502ff?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "125g",
+      "price": 3.99,
+      "description": {
+        "origine": "Coltivati in Italia, da agricoltura biologica",
+        "sapore": "Dolci e leggermente aciduli, con una consistenza succosa",
+        "benefici": "Ricchi di antiossidanti, vitamine e minerali",
+        "formato": "Disponibili in confezioni da 125g",
+        "conservazione": "Conservare in frigorifero"
+      },
+      "rate": [
+        4,
+        27,
+        14,
+        0,
+        1
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "40",
+      "name": "Ananas",
+      "image": "https://plus.unsplash.com/premium_photo-1725549578976-310ef6f2229e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1 pezzo",
+      "price": 4.49,
+      "description": {
+        "origine": "Importato da Costa Rica e Filippine, coltivato in modo sostenibile",
+        "sapore": "Dolce e succoso, con un retrogusto leggermente acidulo",
+        "benefici": "Ricco di vitamina C e bromelina, utile per la digestione",
+        "formato": "Disponibile intero o in fette da 500g",
+        "conservazione": "Conservare in frigorifero dopo l'apertura"
+      },
+      "rate": [
+        26,
+        12,
+        1,
+        1,
+        0
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "41",
+      "name": "Kiwi",
+      "image": "https://plus.unsplash.com/premium_photo-1674382739482-5d36b98d653a?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "1Kg",
+      "price": 3.29,
+      "description": {
+        "origine": "Coltivato in Italia e Nuova Zelanda",
+        "sapore": "Dolce e acidulo, con una polpa succosa",
+        "benefici": "Ricco di vitamina C, fibre e antiossidanti",
+        "formato": "Disponibile in confezioni da 4-6 frutti",
+        "conservazione": "Conservare in un luogo fresco o in frigorifero"
+      },
+      "rate": [
+        4,
+        22,
+        0,
+        0,
+        0
+      ],
+      "category_id": 1
+    },
+    {
+      "id": "42",
+      "name": "Farina di Mandorle",
+      "image": "https://images.unsplash.com/photo-1615468688177-388c57dcc1c5?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "500g",
+      "price": 7.49,
+      "description": {
+        "origine": "Prodotta in Italia da mandorle coltivate biologicamente",
+        "sapore": "Ricca e delicata, con un retrogusto di mandorla tostata",
+        "benefici": "Fonte di proteine, fibre e grassi sani",
+        "formato": "Disponibile in confezioni da 250g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        20,
+        7,
+        29,
+        1,
+        1
+      ],
+      "category_id": 4
+    },
+    {
+      "id": "43",
+      "name": "Cioccolata Spalmabile",
+      "image": "https://images.unsplash.com/photo-1590080875852-ba44f83ff2db?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "quantity": "350g",
+      "price": 4.49,
+      "description": {
+        "origine": "Prodotta in Italia, con ingredienti di alta qualità",
+        "sapore": "Ricca e cremosa, con un sapore intenso di cioccolato e nocciole",
+        "benefici": "Fonte di energia, ideale per la colazione o come snack",
+        "formato": "Disponibile in vasetti da 250g",
+        "conservazione": "Conservare in un luogo fresco e asciutto"
+      },
+      "rate": [
+        26,
+        27,
+        0,
+        1,
+        0
+      ],
+      "category_id": 8
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Spaghetti alla Carbonara",
+      "description": "La Carbonara è uno dei piatti simbolo della cucina italiana, le cui origini sono tanto dibattute quanto affascinanti. La versione più accreditata racconta che questo piatto sia nato nel Lazio durante la Seconda Guerra Mondiale, quando i soldati americani combinavano gli ingredienti a loro disposizione: uova, pancetta e formaggio. Trasformato dalla maestria culinaria locale, il risultato è diventato un'icona gastronomica. Con il suo guanciale croccante, il pecorino romano saporito e una cremosità ineguagliabile, la Carbonara incarna il calore e la tradizione italiana in ogni forchettata.",
+      "image": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": {
+        "spaghetti": "400g",
+        "guanciale": "150g",
+        "uova": "4",
+        "pecorino romano": "100g",
+        "pepe nero": "q.b."
+      },
+      "difficulty": "Media",
+      "preparation": "10 minuti",
+      "cooking": "15 minuti",
+      "doses": "4 persone",
+      "cost": "Basso"
+    },
+    {
+      "id": "2",
+      "name": "Risotto ai Funghi Porcini",
+      "description": "Il Risotto ai Funghi Porcini è una celebrazione della natura e dei suoi sapori più autentici. Originario delle regioni settentrionali d’Italia, in particolare Lombardia e Piemonte, questo piatto è legato alla tradizione contadina. I porcini, considerati il re dei funghi, vengono raccolti nei boschi italiani durante l’autunno e conferiscono al risotto un aroma intenso e terroso. La cremosità del riso Carnaroli e l’eleganza dei porcini rendono questa ricetta un simbolo del rispetto per i prodotti stagionali e della raffinatezza culinaria italiana.",
+      "image": "https://plus.unsplash.com/premium_photo-1695240028448-9a8bf3e164f5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": {
+        "riso carnaroli": "320g",
+        "funghi porcini": "200g",
+        "brodo vegetale": "1 litro",
+        "cipolla": "1",
+        "burro": "50g",
+        "parmigiano reggiano": "50g",
+        "olio d'oliva": "2 cucchiai",
+        "vino bianco": "100ml",
+        "prezzemolo": "q.b."
+      },
+      "difficulty": "Media",
+      "preparation": "15 minuti",
+      "cooking": "20 minuti",
+      "doses": "4 persone",
+      "cost": "Medio"
+    },
+    {
+      "id": "3",
+      "name": "Pollo al Curry",
+      "description": "Il Pollo al Curry porta con sé il fascino delle spezie orientali, combinando cultura e gusto in un piatto irresistibile. Originario dell’India, ma reinterpretato in molte cucine del mondo, il curry è più di una semplice miscela di spezie: è una storia che racconta commerci lontani, influenze coloniali e la capacità di trasformare ingredienti semplici in un capolavoro di sapori. In questa versione, il latte di cocco aggiunge una dolcezza vellutata che bilancia il calore delle spezie, mentre il riso basmati accompagna perfettamente questa delizia esotica.",
+      "image": "https://plus.unsplash.com/premium_photo-1723708871094-2c02cf5f5394?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": {
+        "petto di pollo": "500g",
+        "curry in polvere": "2 cucchiai",
+        "latte di cocco": "200ml",
+        "cipolla": "1",
+        "olio di semi": "2 cucchiai",
+        "riso basmati": "200g",
+        "sale": "q.b."
+      },
+      "difficulty": "Facile",
+      "preparation": "10 minuti",
+      "cooking": "30 minuti",
+      "doses": "4 persone",
+      "cost": "Medio"
+    },
+    {
+      "id": "4",
+      "name": "Tiramisù Classico",
+      "description": "Il Tiramisù è il dolce italiano per eccellenza, nato nelle terre del Veneto, si dice intorno agli anni ’60. Le sue origini sono legate a storie di amore e creatività: una leggenda racconta che sia stato ideato per donare energia (da qui il nome tiramisù) ai lavoratori e agli innamorati. Con la sua combinazione di caffè intenso, crema vellutata al mascarpone e savoiardi soffici, il Tiramisù è un abbraccio in ogni cucchiaio. Oggi è un simbolo di convivialità, perfetto per chiudere in dolcezza qualsiasi pasto.",
+      "image": "https://plus.unsplash.com/premium_photo-1695028378225-97fbe39df62a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": {
+        "savoiardi": "300g",
+        "mascarpone": "500g",
+        "uova": "4",
+        "zucchero": "100g",
+        "caffè": "300ml",
+        "cacao amaro": "q.b."
+      },
+      "difficulty": "Facile",
+      "preparation": "20 minuti",
+      "cooking": "Nessuno",
+      "doses": "6 persone",
+      "cost": "Basso"
+    }
+  ],
+  "cart": []
+}

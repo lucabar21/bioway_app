@@ -1,0 +1,16 @@
+<div class="card_container">
+  <div class="card_img">
+    <img src="{{ product.image }}" alt="{{ product.name }}" />
+  </div>
+  <div class="card_body">
+    <div class="card_top">
+      <span (click)="goToProduct(product.id)">{{ product.name }}</span>
+      <span>{{ product.quantity }}</span>
+    </div>
+
+    <div class="card_bottom">
+      <span>{{ product.price }} €</span>
+      <app-button (click)="addToCart(product)"></app-button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="card_container">
+  <div class="card_img">
+    <img src="{{ recipe.image }}" alt="{{ recipe.name }}" /><span>{{
+      recipe.name
+    }}</span>
+  </div>
+  <div class="card_body">
+    <div class="stats">
+      <span>
+        <ion-icon name="speedometer-outline"></ion-icon>
+        <strong>Difficoltà:</strong>
+        {{ recipe.difficulty }}</span
+      >
+      <span>
+        <ion-icon name="cash-outline"></ion-icon>
+        <strong>Costo:</strong> {{ recipe.cost }}</span
+      >
+    </div>
+    <button type="button" (click)="goToRecipe(recipe.id)">
+      Scopri la ricetta
+    </button>
+  </div>
+</div>

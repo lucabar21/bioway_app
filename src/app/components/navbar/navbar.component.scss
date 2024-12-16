@@ -1,0 +1,145 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--ion-color-primary);
+  padding-block: 0.5rem;
+}
+
+.nav_bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: var(--ion-color-secondary);
+  padding-block: 0.7rem;
+
+  span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #486a10;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.nav_bottom > span:hover {
+  color: var(--ion-color-primary);
+  transition: 0.1s;
+}
+
+.active {
+  color: var(--ion-color-primary) !important;
+  border-bottom: 3px solid var(--ion-color-primary);
+}
+
+.nav_bottom_mobile {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ion-color-secondary);
+  padding-block: 0.7rem;
+  ion-icon {
+    color: var(--ion-color-primary);
+    cursor: pointer;
+  }
+}
+.nav_bottom_mobile_drop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ion-color-secondary);
+  padding-block: 0.7rem;
+  gap: 1rem;
+
+  span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #486a10;
+    cursor: pointer;
+    padding: 0.2rem;
+  }
+}
+
+.active_mobile {
+  border-bottom: 3px solid var(--ion-color-primary);
+  color: var(--ion-color-primary) !important;
+}
+
+.nav_right_elements {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.nav_logo {
+  width: 200px;
+  margin-inline: 1rem;
+  cursor: pointer;
+}
+
+.nav_logo > img {
+  width: 100%;
+  height: 100%;
+}
+ion-icon {
+  font-size: 2.3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_bottom {
+    span {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav_bottom {
+    display: none;
+  }
+
+  .nav_bottom_mobile {
+    display: flex;
+  }
+}
+
+.icon_cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.badge {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  padding: 0.3rem;
+  background-color: var(--ion-color-danger);
+  border-radius: 50%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--ion-color-tertiary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}

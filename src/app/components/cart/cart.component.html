@@ -1,0 +1,24 @@
+<div class="cart" [class.open]="isOpen">
+  <div class="header">
+    <ion-icon name="close-sharp" (click)="closeCart()"></ion-icon>
+    <span>Il tuo carrello</span>
+  </div>
+  <div class="clear">
+    <div (click)="clearCart()">
+      <span>Svuota il carrello</span> <ion-icon name="trash"></ion-icon>
+    </div>
+  </div>
+  <div class="items_container">
+    <app-cart-item [item]="item" *ngFor="let item of cartItems"></app-cart-item>
+  </div>
+  <div class="fee" *ngIf="total > 4.99">
+    <span>Costo di spedizione</span>
+    <span>4.99 €</span>
+  </div>
+  <div class="total" *ngIf="total > 4.99">
+    <span>Totale</span>
+    <span>{{ total.toFixed(2) }} €</span>
+  </div>
+
+  <button *ngIf="total > 4.99">Completa l'ordine</button>
+</div>

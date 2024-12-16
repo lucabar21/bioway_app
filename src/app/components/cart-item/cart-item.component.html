@@ -1,0 +1,37 @@
+<div class="item">
+  <div class="item_img">
+    <img src="{{ item.image }}" alt="{{ item.name }}" />
+  </div>
+  <div class="middle_info">
+    <div class="item_info">
+      <span>{{ item.name }}</span
+      ><span>{{ item.quantity }}</span>
+    </div>
+    <div class="quantity">
+      <div class="trigger">
+        <span>Qtà: 1 </span>
+        <ion-icon
+          name="arrow-down"
+          (click)="toggleDropdown()"
+          *ngIf="!isOpen"
+        ></ion-icon>
+        <ion-icon
+          name="arrow-up"
+          (click)="toggleDropdown()"
+          *ngIf="isOpen"
+        ></ion-icon>
+      </div>
+      <div class="dropdown" *ngIf="isOpen">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+      </div>
+    </div>
+  </div>
+  <div class="item_price">
+    <span>{{ item.price }}</span
+    ><ion-icon name="trash" (click)="removeItem(item.id)"></ion-icon>
+  </div>
+</div>

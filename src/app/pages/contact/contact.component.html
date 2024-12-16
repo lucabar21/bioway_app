@@ -1,0 +1,46 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <form action="">
+    <span>Completa il form e contattaci direttamente!</span>
+    <ion-input
+      type="text"
+      fill="outline"
+      label="Nome"
+      labelPlacement="floating"
+      placeholder="Inserisci nome e cognome"
+      ngModel
+      email
+    ></ion-input>
+
+    <ion-input
+      type="email"
+      fill="outline"
+      label="Email"
+      labelPlacement="floating"
+      placeholder="Inserisci un indirizzo email valido"
+      ngModel
+      email
+    ></ion-input>
+
+    <ion-textarea
+      fill="outline"
+      label="Messaggio"
+      labelPlacement="floating"
+      placeholder="Scrivi qui il tuo messaggio"
+      rows="5"
+    ></ion-textarea>
+    <button type="submit">Invia</button>
+  </form>
+  <div class="info">
+    <span>I nostri contatti</span>
+    <div>
+      <span><ion-icon name="call-outline"></ion-icon> +39 09846524</span>
+      <span><ion-icon name="mail-outline"></ion-icon>info&#64;bioway.com</span>
+      <span
+        ><ion-icon name="location-outline"></ion-icon>Via del corso, Roma
+        (RM)</span
+      >
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
