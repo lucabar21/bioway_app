@@ -6,6 +6,13 @@
   gap: 2rem;
   width: 70%;
   margin-inline: auto;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8rem;
+  }
 }
 
 ion-icon {
