@@ -6,6 +6,7 @@ import {
 } from '@ionic/angular/standalone';
 
 import { routes } from './app.routes';
+import { provideHttpClient } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -13,5 +14,6 @@ export const appConfig: ApplicationConfig = {
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideRouter(routes),
     provideIonicAngular(),
+    provideHttpClient(),
   ],
 };

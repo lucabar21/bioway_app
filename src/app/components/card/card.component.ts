@@ -8,7 +8,6 @@ import { CartService } from '../../services/cart.service';
   standalone: true,
   selector: 'app-card',
   imports: [CommonModule, ButtonComponent],
-  providers: [CartService],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
 })
@@ -26,6 +25,6 @@ export class CardComponent implements OnInit {
 
   addToCart(product: any) {
     this.cartService.addToCart(product);
-    window.location.reload();
+    // window.location.reload();
   }
 }

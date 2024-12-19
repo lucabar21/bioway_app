@@ -8,7 +8,6 @@ import { CartItemComponent } from '../cart-item/cart-item.component';
   standalone: true,
   selector: 'app-cart',
   imports: [CommonModule, IonIcon, CartItemComponent, CartItemComponent],
-  providers: [CartService],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.scss',
 })

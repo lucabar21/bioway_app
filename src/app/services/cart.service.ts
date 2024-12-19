@@ -11,6 +11,8 @@ export class CartService {
   private cart: BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
   private total: BehaviorSubject<number> = new BehaviorSubject<number>(0); // Aggiungi un BehaviorSubject per il totale
 
+  cart$ = this.cart.asObservable();
+
   constructor(private http: HttpClient) {
     this.loadCartFromServer();
   }

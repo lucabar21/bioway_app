@@ -18,7 +18,7 @@ export class CartItemComponent {
 
   removeItem(id: number) {
     this.cartService.removeFromCart(id);
-    window.location.reload();
+    // window.location.reload();
   }
 
   toggleDropdown() {
