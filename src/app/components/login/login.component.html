@@ -1,0 +1,24 @@
+<div class="login_container" [class.open]="isOpen">
+  <span>Effettua l'accesso</span>
+  <form>
+    <ion-input
+      type="email"
+      fill="outline"
+      label="Email"
+      labelPlacement="floating"
+      placeholder="Inserisci un indirizzo email valido"
+      ngModel
+      email
+    ></ion-input>
+    <ion-input
+      type="password"
+      fill="outline"
+      label="Password"
+      labelPlacement="floating"
+      placeholder="Inserisci la password"
+      ngModel
+      password
+    ></ion-input>
+    <button type="submit">Accedi</button>
+  </form>
+</div>

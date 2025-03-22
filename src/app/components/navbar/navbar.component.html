@@ -9,6 +9,18 @@
         <div class="badge" *ngIf="items.length > 0">{{ items.length }}</div>
         <ion-icon color="secondary" name="cart"></ion-icon>
       </div>
+      <div class="icon_user" (click)="toggleLogin()">
+        <ion-icon
+          *ngIf="!loginOpen"
+          color="secondary"
+          name="person-circle-outline"
+        ></ion-icon>
+        <ion-icon
+          *ngIf="loginOpen"
+          color="tertiary"
+          name="person-circle-outline"
+        ></ion-icon>
+      </div>
     </div>
   </div>
   <div class="nav_bottom">
@@ -39,4 +51,5 @@
     <span routerLink="/contact" routerLinkActive="active_mobile">Contatti</span>
   </div>
   <app-cart [isOpen]="cartOpen" (close)="toggleCart()"></app-cart>
+  <app-login [isOpen]="loginOpen"></app-login>
 </nav>

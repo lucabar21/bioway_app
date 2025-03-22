@@ -1,0 +1,52 @@
+.login_container {
+  position: absolute;
+  width: 30%;
+  height: 200px;
+  background-color: var(--ion-color-tertiary);
+  padding: 1.5rem;
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 15px 5px 15px 15px;
+  right: 15px;
+  top: 65px;
+
+  span {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--ion-color-primary);
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    ion-input {
+      width: 100%;
+    }
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--ion-color-secondary);
+    color: var(--ion-color-primary);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-secondary);
+    transition: 0.2s;
+  }
+}
+.login_container.open {
+  display: flex;
+}
